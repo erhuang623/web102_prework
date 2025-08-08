@@ -29,10 +29,12 @@ const gamesContainer = document.getElementById("games-container");
 function addGamesToPage(games) {
 
     // loop over each item in the data
-
+    for(item in games) {
+        
+    }
 
         // create a new div element, which will become the game card
-
+        let newDiv = document.createElement("div");
 
         // add the class game-card to the list
 
